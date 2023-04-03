@@ -1,0 +1,35 @@
+body{
+    background-color: ffffff;
+    background: url("../image/why.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+header{
+    background-color: aqua;
+    border-right: 5px;
+    border-right-style: double;
+    border-right-color:red ;
+    border-radius: 30px;
+}
+#p1{
+    border: 2px solid blue;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+#section1{
+    border: 2px solid red;
+    height: 50vh;
+    width: 50vw;
+    margin: auto;
+}
+
+#section2{
+    border: 2px solid red;
+    max-height: 10vh;
+    max-width: 10vw;
+    margin: auto;
+    overflow: auto;
+}

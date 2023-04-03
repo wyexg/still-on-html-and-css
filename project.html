@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="fname">first name</label><br>
+            <input type="text" id="fname" value="fname"><br>
+            <label for="text">last name</label><br>
+            <input type="text" id="lname" value="lname">
+        </form>
+    </div>
+
+         <p><b>radio form</b></p>
+
+    <div>
+        <form>
+            <input type="radio" id="htlm" name="fav_language" value="html">
+            <label for="html">html</label><br>
+            <input type="radio" id="css" name="fav_language" value="css">
+            <label for="css">css</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="javascript">
+            <label for="javascript">javascript</label>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+    <form method="post" action="">
+        <div>
+            <label for="fname"> first name</label>
+            <input type="text" class="fname" id="fname" placeholder="name" required>
+        </div>
+        <div>
+           <label for="pwd"> password</label> 
+            <input type="password" class="pwd" id="pwd" placeholder="password" required>
+        </div>
+        <div>
+           <label for="mail"> your email</label>  
+            <input type="email" class="mail" id="mail" placeholder="your email" required>
+        </div> 
+        <div> 
+           <label for="dob"> date of birth</label>  
+            <input type="date" class="dob" id="dob" placeholder="date of birth" required>
+        </div>
+        <div>
+            <label for="upwd"> upload your password</label>
+            <input type="file" class="file" id="file" placeholder="upload your password" required>
+        </div> 
+        <div>
+            <label for="choose country"> choose country</label>
+            <select name="select country" id="select country" aria-placeholder="select country">
+                <option value="nig" >nigeria</option>
+                <option value="eng"> england</option>
+                <option value="esp"> spain</option>
+            </select>
+        </div> 
+        <div>
+           <input type="submit" value="submit">
+        </div>   
+
+    </form>
+    </div>
+</body>
+</html>
